@@ -1,3 +1,5 @@
+Ecommerce React Native App
+
 # Navigation
 
 ### Root Tabs Navigator
@@ -16,6 +18,7 @@
     4- Shoes Screen
     5- Accessories Screen
     6- Product Screen
+    7- Reviews Screen
 
 ### Shop Stack Navigator
 
@@ -24,6 +27,8 @@
     3- Clothes Screen
     4- Shoes Screen
     5- Accessories Screen
+    6- Product Screen
+    7- Reviews Screen
 
 ### Bag/Cart Stack Navigator
 
@@ -32,16 +37,21 @@
     3- Payment Screen
     4- Shipping Address Screen
     5- Success/Failure Screen
+    6- Product Screen
+    7- Reviews Screen
 
 ### Favorite Stack Navigator
 
     1- Product Screen
+    2- Reviews Screen
 
 ### Profile Stack Navigator
 
     1- My Orders Screen
     2- Order Details Screen
     3- Settings Screen
+    4- Product Screen
+    5- Reviews Screen
 
 ### Product Stack Navigator
 
