@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeNavigator from "../HomeStackNavigator";
 import ShopNavigator from "../ShopStackNavigator";
 import BagNavigator from "../BagStackNavigator";
-import Favorites from "../../screens/Favorites";
+import FavoritesNavigator from "../FavoritesStackNavigator";
 import Profile from "../../screens/Profile";
 
 const RootTabNavigator = createBottomTabNavigator();
@@ -16,7 +16,7 @@ export default () => {
         <RootTabNavigator.Screen name="Home" component={HomeNavigator} />
         <RootTabNavigator.Screen name="Shop" component={ShopNavigator} />
         <RootTabNavigator.Screen name="Bag" component={BagNavigator} />
-        <RootTabNavigator.Screen name="Favorites" component={Favorites} />
+        <RootTabNavigator.Screen name="Bag" component={FavoritesNavigator} />
         <RootTabNavigator.Screen name="Profile" component={Profile} />
       </RootTabNavigator.Navigator>
     </NavigationContainer>
