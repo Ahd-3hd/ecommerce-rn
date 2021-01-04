@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeNavigator from "../HomeStackNavigator";
 import ShopNavigator from "../ShopStackNavigator";
-import Bag from "../../screens/Bag";
+import BagNavigator from "../BagStackNavigator";
 import Favorites from "../../screens/Favorites";
 import Profile from "../../screens/Profile";
 
@@ -15,7 +15,7 @@ export default () => {
       <RootTabNavigator.Navigator>
         <RootTabNavigator.Screen name="Home" component={HomeNavigator} />
         <RootTabNavigator.Screen name="Shop" component={ShopNavigator} />
-        <RootTabNavigator.Screen name="Bag" component={Bag} />
+        <RootTabNavigator.Screen name="Bag" component={BagNavigator} />
         <RootTabNavigator.Screen name="Favorites" component={Favorites} />
         <RootTabNavigator.Screen name="Profile" component={Profile} />
       </RootTabNavigator.Navigator>
