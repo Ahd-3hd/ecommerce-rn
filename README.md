@@ -12,27 +12,29 @@ Ecommerce React Native App
 
 ### Home Stack Navigator
 
-    1- Sales Screen
-    2- New Screen
-    3- Clothes Screen
-    4- Shoes Screen
-    5- Accessories Screen
-    6- Product Screen
-    7- Reviews Screen
+    1- Home Screen : Main
+    2- Sales Screen
+    3- New Screen
+    4- Clothes Screen
+    5- Shoes Screen
+    6- Accessories Screen
+    7- Product Screen
+    8- Reviews Screen
 
 ### Shop Stack Navigator
 
-    1- Sales Screen
-    2- New Screen
-    3- Clothes Screen
-    4- Shoes Screen
-    5- Accessories Screen
-    6- Product Screen
-    7- Reviews Screen
+    1- Shop Screen : Main
+    2- Sales Screen
+    3- New Screen
+    4- Clothes Screen
+    5- Shoes Screen
+    6- Accessories Screen
+    7- Product Screen
+    8- Reviews Screen
 
 ### Bag/Cart Stack Navigator
 
-    1- My bag Screen
+    1- My bag Screen : Main
     2- Checkout Screen
     3- Payment Screen
     4- Shipping Address Screen
@@ -42,12 +44,13 @@ Ecommerce React Native App
 
 ### Favorite Stack Navigator
 
-    1- Product Screen
-    2- Reviews Screen
+    1- Favorite Screen : Main
+    2- Product Screen
+    3- Reviews Screen
 
 ### Profile Stack Navigator
 
-    1- My Orders Screen
+    1- My Orders Screen : Main
     2- Order Details Screen
     3- Settings Screen
     4- Product Screen
@@ -55,4 +58,5 @@ Ecommerce React Native App
 
 ### Product Stack Navigator
 
-    1- Reviews Screen
+    1- Product Screen Main
+    2- Reviews Screen
